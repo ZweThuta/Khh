@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Photo from "../Foto/doggo2.gif";
+import Photo from "../Foto/fataky-peachcat.gif";
 import { useNavigate } from "react-router-dom";
 
 const Post = () => {
@@ -29,6 +29,13 @@ const Post = () => {
   }, []); 
   return (
     <>
+    <div class="ripple-background">
+        <div class="circle xxlarge shade1"></div>
+        <div class="circle xlarge shade2"></div>
+        <div class="circle large shade3"></div>
+        <div class="circle mediun shade4"></div>
+        <div class="circle small shade5"></div>
+      </div>
       <section className="post-bg">
         <div className="post-bg2">
           <img className="post-img" src={Photo} alt="photopic" />
